@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    font-family: 'Croissant One', cursive;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav {
+     width: 100vw;
+     background-color: #081e36;
+     position: fixed;
+     display: flex;
+     margin-right: auto;
+     margin-left: auto;
+}
+.nav-item {
+    text-decoration: none;
+    color: #ffce80;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.nav-item:hover {
+    background-color: rgb(255, 255, 255, 0.4);
+    color: #ffce80;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider {
+    width: 100%;
+}
+.slider img {
+    width: 100%;
+    height: 100vh;
+}
+.about {
+    width: 80%;
+    right: 50%;
+}
+.list {
+    width: 80%;
+}
+em {
+    font-style: italic;
+}
+.quote {
+    margin: 10px auto;
+    padding: 10px 0 0 10px;
+    border: 2px solid #c3e5f8;
+    border-radius: 5px;
+    background-color: #dbedf9;
+    clear: both;
+    font-size: 18px;
+}
+/* img {
+    width: 80%;
+    height: 60%;
+} */
+
+.title-first {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://e0.pxfuel.com/wallpapers/738/279/desktop-wallpaper-artstation-chinese-mid-autumn-festival-design-judy-kao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-second {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f9da8a;
+}
+.both {
+    display: flex;
+    gap: 30px;
+}
+.about {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.about-second {
+    margin: 0 30px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.about-second h1 {
+    color: #081e36;
+
+}
+.about-second img {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+.about p {
+    font-size: 20px;
+}
+.ingredients {
+    text-align: left;
+}
+.cach-lam-banh {
+    width: 100%;
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #081e36;
+    color: #ffce80;
+    text-align: center;
+}
+.cach-lam-banh iframe {
+    border-radius: 10px;
+}
